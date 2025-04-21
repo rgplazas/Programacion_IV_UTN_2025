@@ -1,0 +1,42 @@
+<h1>Botones</h1>
+
+@for (b of botones(); track b.nombre; let i = $index) {
+    @if(b.letra === "@"){
+        <button class="btn btn-dark">
+            <strong>{{ i + "!! - " + b.letra }}</strong>
+            {{ b.nombre }}
+        </button>
+    } @else {
+        <button class="btn btn-outline-dark">
+            <strong>{{ i + " - " + b.letra }}</strong>
+            {{ b.nombre }}
+        </button>
+    }
+
+@switch (b.nombre) {
+    @case ("Decorator") {
+        <br/>
+    }
+
+    @case ("Block") {
+        <hr/>
+    }
+}
+
+} @empty {
+    <p>No hay nada</p>
+}
+
+<!--
+@for (boton of botones; track $index) {
+}-->
+
+<!--
+    for (botones) {
+        <button>letra + nombre</button>
+    }
+    
+    <button>B Block</button>
+    <button>C Class</button>
+    <button>@ Decorator</button>
+-->
