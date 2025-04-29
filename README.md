@@ -97,7 +97,27 @@ ng serve
 - [Autenticación](https://supabase.com/docs/guides/auth)
 - [Relaciones](https://supabase.com/docs/guides/database/tables#foreign-key-constraints)
 
+### 📚 Clase 06 (28/04/2025) - Guards y Juegos en Angular
+- Implementación de Guards
+- Desarrollo de juegos interactivos
+  - Ahorcado
+  - Mayor-Menor
+- Estructura de páginas y servicios
+- Configuración de environments
 
+#### 🔗 Recursos
+- [Guards en Angular](https://angular.dev/guide/routing/common-router-tasks#preventing-unauthorized-access)
+- [Servicios y Dependencias](https://angular.dev/guide/di/dependency-injection-providers)
+- [Environments en Angular](https://angular.dev/guide/environments)
+- [Manejo de Estados](https://angular.dev/guide/signals)
+- [Autenticación](https://angular.dev/guide/security)
+
+#### Características Implementadas
+- Guards para protección de rutas
+- Juegos interactivos con Angular
+- Sistema de autenticación
+- Manejo de estados con servicios
+- Configuración de ambientes
 
 ## Contribución
 Si deseas contribuir al proyecto:
