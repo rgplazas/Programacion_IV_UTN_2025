@@ -119,6 +119,46 @@ ng serve
 - Manejo de estados con servicios
 - Configuración de ambientes
 
+### 📚 Clase 07 (30/04/2025) - Directivas y Pipes Personalizados
+- Desarrollo de directivas personalizadas
+- Implementación de pipes personalizados
+- Clases y modelos de datos
+- Servicios de chat en tiempo real
+
+#### 🔗 Recursos
+- [Directivas Personalizadas](https://angular.dev/guide/directives)
+- [Pipes Personalizados](https://angular.dev/guide/pipes/custom-pipes)
+- [Clases en TypeScript](https://www.typescriptlang.org/docs/handbook/2/classes.html)
+- [Supabase Realtime](https://supabase.com/docs/guides/realtime)
+
+#### Características Implementadas
+- Directiva `resaltar` para destacar elementos
+- Pipe `saludar` para formateo de texto
+- Clases `Usuario` y `Mensaje` para el chat
+- Servicio de chat con Supabase
+- Componente de chat en tiempo real
+
+### 📚 Clase 08 (05/05/2025) - Progressive Web Apps (PWA)
+- Introducción a PWA
+- Service Workers
+- Manifest y configuración
+- Directivas de resaltado
+- Servicios de autenticación
+
+#### 🔗 Recursos
+- [Angular PWA](https://angular.dev/guide/service-worker-getting-started)
+- [Service Workers](https://angular.dev/guide/service-worker-intro)
+- [Web App Manifest](https://web.dev/articles/add-manifest)
+- [Autenticación con Supabase](https://supabase.com/docs/guides/auth/overview)
+
+#### Características Implementadas
+- Configuración de PWA
+- Service Worker para caché
+- Manifest personalizado
+- Directiva `highlight`
+- Servicio de autenticación mejorado
+- Íconos y assets para PWA
+
 ## Contribución
 Si deseas contribuir al proyecto:
 1. Realiza un Fork del repositorio
